@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/ContactUs.css">
+	<link rel="stylesheet" type="text/css" href="../css/Navbar.css">
+	<link rel="stylesheet" type="text/css" href="../css/Footer.css">
+	<title>Tanaka Guitar</title>
+</head>
+<body>
+	<navbar>
+		<a class="head">Tanaka Guitar</a>
+		<nav>
+			<a class="active contactUs" href="ContactUs.html">Contact Us</a>
+			<a class="menu aboutUs" href="AboutUs.html">About Us</a>
+			<a class="menu member" href="Member.html">Member</a>
+			<a class="menu gallery" href="Gallery.html">Gallery</a>
+			<a class="menu home" href="Home.html">Home</a>
+		</nav>
+	</navbar>
+	<br>
+	<br>
+	<div class="formBox">
+		<div class="box">
+			<form>
+				<ul>
+					<li>
+						<label for="Full Name">Full Name </label>
+					</li>
+					<li>
+						<input type="Text" name="FullName" id="FullName">
+					</li>
+					<li>
+						<label for="Email">Email </label>
+					</li>
+					<li>
+						<input type="Email" name="Email" id="Email">
+					</li>
+					<li>
+						<label for="Message">Message</label>
+					</li>
+					<li>
+						<textarea name="Address" id="Address"></textarea>
+					</li>
+					<li>
+						<div id="error" style="color:red; font-size: 15px;"></div>
+					</li>
+					<li>
+						<button type="button" class="center" onclick="on_submit()">Send</button>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div>
+			<ul>
+				<li><h2 class="subtitle">Visit Us On</h2></li>
+				<li><img src="../image/location.png" width="35px" height="50px"><p class="visitUsDesc">Boulevard Avenue 5th, Belgium</p></li>
+				<li><img src="../image/instagram.png" width="30px" height="30px"><p class="visitUsDesc">TanakaGuitar.id</p></li>
+				<li><img src="../image/gmail.png" width="30px" height="30px"><p class="visitUsDesc">OfficialEmail@TanakaGuitar.id</p></li>
+				<li><img src="../image/phone.png" width="30px" height="30px"><p class="visitUsDesc">+32 09 - 8943 - 7845</p></li>
+				<li><img src="../image/clock.png" width="30px" height="30px"><p class="visitUsDesc">09.00 AM - 08.00 PM (UTC + 01.00)</p></li>
+			</ul>
+		</div>
+		
+	</div>
+	<!-- <h2 class="columnTitles">Contact Us</h2> -->
+	<!-- <div class="row">
+		<div class="column">
+			<table>
+				<tr>
+					<td><label for="Full Name">Full Name </label></td>
+				</tr>
+					<td><input type="Text" name="Full Name" id="Full Name"></td>
+				<tr>
+					<td><label for="Email">Email </label></td>
+				</tr>
+				<tr>
+					<td><input type="Email" name="Email" id="Email"></td>
+				</tr>
+					<td><label for="Address">Address</label></td>
+				</tr>
+				<tr>
+					<td><textarea name="Address" id="Address"></textarea></td>
+				</tr>
+				<tr>
+					<td><br></td>
+				</tr>
+				<tr>
+					<td><button type="button" class="center">Send</button></td>
+				</tr>
+			</table>
+		</div>
+		<div class="column">
+			<table>
+				<tr>
+					<th colspan="2"><h2 class="columnTitles">Visit Us On</h2></th>
+				</tr>
+				<tr>
+					<td><img src="../image/location.png" width="35px" height="50px"></td>
+					<td class="visitUsDesc">Boulevard Avenue 5th, Belgium</td>
+				</tr>
+				<tr>
+					<td width="40px"><img src="../image/instagram.png" width="30px" height="30px"></td>
+					<td class="visitUsDesc">TanakaGuitar.id</td>
+				</tr>
+				<tr>
+					<td><img src="../image/twitter.png" width="30px" height="30px"></td>
+					<td class="visitUsDesc">TanakaGuitar.id</td>
+				</tr>
+				<tr>
+					<td><img src="../image/gmail.png" width="30px" height="30px"></td>
+					<td class="visitUsDesc">OfficialEmail@TanakaGuitar.id</td>
+				</tr>
+				<tr>
+					<td><img src="../image/phone.png" width="30px" height="30px"></td>
+					<td class="visitUsDesc">+32 09 - 8943 - 7845</td>
+				</tr>
+				<tr>
+					<td><img src="../image/clock.png" width="30px" height="30px"></td>
+					<td class="visitUsDesc"> 09.00 AM - 08.00 PM (UTC + 01.00)</td>
+				</tr>
+			</table>
+		</div>
+	</div> -->
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer>
+        <a class="footerTitle">TANAKA GUITAR</a>
+        <h4 class="textTitle2">We are the industry leader in guitar-related service and sale. All of our services and products are meticulously chosen and built with perfection in mind.</h4>
+        <div class="footerContent">
+            <div class="flex">
+                <div class="footerPart">
+                    <h4>Address</h4>
+                    <p>Boulevard Avenue 5th, Belgium</p>
+                </div>
+                <div class="footerPart">
+                    <h4>Phone</h4>
+                    <p>+32 09 - 8943 - 7845</p>
+                </div>
+                <div class="footerPart">
+                    <h4>Email</h4>
+                    <p>OfficialEmail@TanakaGuitar.id</p>
+                </div>
+				<div class="footerPart">
+                    <h4>Instagram</h4>
+                    <p>TanakaGuitar.id</p>
+                </div>
+            </div>
+        </div>
+        <p>© 2022 Tanaka Guitar | All Rights Reserved</p>
+    </footer>
+	<script src="../javascript/ContactUs.js"></script>
+</body>
+</html>

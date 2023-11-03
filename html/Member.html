@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/Member.css">
+	<link rel="stylesheet" type="text/css" href="../css/Navbar.css">
+	<link rel="stylesheet" type="text/css" href="../css/Footer.css">
+	<title>Tanaka Guitar</title>
+</head>
+<body>
+	<navbar>
+		<a class="head">Tanaka Guitar</a>
+		<nav>
+			<a class="menu contactUs" href="ContactUs.html">Contact Us</a>
+			<a class="menu aboutUs" href="AboutUs.html">About Us</a>
+			<a class="active member" href="Member.html">Member</a>
+			<a class="menu gallery" href="Gallery.html">Gallery</a>
+			<a class="menu home" href="Home.html">Home</a>
+		</nav>
+	</navbar>
+	<h2 class="columnTitle">TANAKA <span style="color: rgba(164, 147, 56, 1)" class="title">GUITAR</span></h2>
+	<div class="formBox">
+		<form>
+			<ul>
+				<li>
+					<label for="FullName">Full Name </label>
+				</li>
+				<li>
+					<input type="Text" name="FullName" id="FullName">
+				</li>
+				<li>
+					<label for="Email">Email </label>
+				</li>
+				<li>
+					<input type="Email" name="Email" id="Email">
+				</li>
+				<li>
+					<label for="Gender">Gender</label>
+				</li>
+				<li>
+					<input type="radio" name="Gender" id="male" value="male"><label for="male">Male</label> <input type="radio" name="Gender" id="female" value="female"> <label for="female">Female</label>
+				</li>
+				<li>
+					<label for="Address">Address</label>
+				</li>
+				<li>
+					<textarea name="Address" id="Address"></textarea>
+				</li>
+				<li>
+					<input type="checkbox" name="NewsLetter" id="NewsLetter"><label for="NewsLetter">Get Daily News!</label>
+				</li>
+				<li>
+					<div id="error" style="color:red;"></div>
+				</li>
+				<li>
+					<button type="button" class="center" id="submit" onclick="on_submit()">Get Member</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<br>
+	<br>
+	<footer>
+        <a class="footerTitle">TANAKA GUITAR</a>
+        <h4 class="textTitle2">We are the industry leader in guitar-related service and sale. All of our services and products are meticulously chosen and built with perfection in mind.</h4>
+        <div class="footerContent">
+            <div class="flex">
+                <div class="footerPart">
+                    <h4>Address</h4>
+                    <p>Boulevard Avenue 5th, Belgium</p>
+                </div>
+                <div class="footerPart">
+                    <h4>Phone</h4>
+                    <p>+32 09 - 8943 - 7845</p>
+                </div>
+                <div class="footerPart">
+                    <h4>Email</h4>
+                    <p>OfficialEmail@TanakaGuitar.id</p>
+                </div>
+				<div class="footerPart">
+                    <h4>Instagram</h4>
+                    <p>TanakaGuitar.id</p>
+                </div>
+            </div>
+        </div>
+        <p>© 2022 Tanaka Guitar | All Rights Reserved</p>
+    </footer>
+
+	<script src="../javascript/Member.js"></script>
+	
+</body>
+</html>
